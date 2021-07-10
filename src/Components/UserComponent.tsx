@@ -17,10 +17,6 @@ const UserComponent = () => {
   console.log("user component", users);
   return (
     <>
-      {/* <h1>Hello</h1>
-      {users.users.map((user: any) => {
-        return <CardComponent user={user} key={user.id} />;
-      })} */}
       {users.loading && <p>Loading...</p>}
       {users.users.length > 0 &&
         users.users.map((user: any) => {
