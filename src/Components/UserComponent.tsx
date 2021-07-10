@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import CardComponent from "./CardComponent";
 import { getUsersRequested } from "../Redux/actions/users";
-import getApi from "../api/userApi";
 
 const UserComponent = () => {
   const dispatch = useDispatch();
